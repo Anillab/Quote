@@ -14,6 +14,9 @@ export class QuoteComponent implements OnInit {
     new Quote("Obama","Change is what we believe in","Karanja"),
 
   ]
+  addVote(i){
+    this.quotes[i].upVotes+=1
+  }
 
   constructor() { }
 
