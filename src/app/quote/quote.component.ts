@@ -18,9 +18,13 @@ export class QuoteComponent implements OnInit {
     this.quotes[i].upVotes+=1
   }
 
+  // deleteGoal(isDelete,index){
+  //       if (isDelete){
+  //           this.quotes.splice(index,1);
+  //           }
+  //           }
   constructor() { }
-
+  //
   ngOnInit() {
   }
-
-}
+  }
