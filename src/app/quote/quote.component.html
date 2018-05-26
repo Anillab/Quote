@@ -4,7 +4,8 @@
   <div *ngFor='let quote of quotes;let i=index'>
   <li>{{quote.quote}}</li>
   <button (click)='addVote(i)' class="btn">UpVote</button>
-  <button type="button" class="btn">DownVote</button>
+  <button (click)='subVote(i)' class="btn">DownVote</button>
+  <button (click) = 'quoteDelete(index)'>Delete</button>
   <app-quote-others  [quote]='quote'></app-quote-others>
 </div>
 </ul>
