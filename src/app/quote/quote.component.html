@@ -1,11 +1,14 @@
+<div class="container-fluid">
 <h1>Quotes</h1>
+<hr>
 <p>Quotes form part of our every day lives for example</p>
 <ul>
   <div *ngFor='let quote of quotes;let i=index'>
   <li>{{quote.quote}} said on {{quote.postedTime|date}}</li>
-  <button (click)='addVote(i)' class="btn">UpVote</button>
-  <button (click)='subVote(i)' class="btn">DownVote</button>
-  <button (click) = 'quoteDelete(index)'>Delete</button>
+  <button (click)='addVote(i)' class="btn btn-success">UpVote</button>
+  <button (click)='subVote(i)' class="btn btn-info">DownVote</button>
+  <button (click) = 'quoteDelete(index)' class="btn btn-danger">Delete</button>
   <app-quote-others  [quote]='quote'></app-quote-others>
 </div>
 </ul>
+</div>

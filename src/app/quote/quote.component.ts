@@ -15,13 +15,14 @@ export class QuoteComponent implements OnInit {
 
   ]
   addVote(i){
-    alert(this.quotes[i].upVotes+=1)
+    confirm(this.quotes[i].upVotes+=1)
+    
   }
   subVote(i){
-    alert(this.quotes[i].upVotes-1)
+    confirm(this.quotes[i].upVotes-1)
   }
   quoteDelete(index){
-     alert("Do You want to Delete this Quote?")
+     confirm("Do You want to Delete this Quote?")
       this.quotes.splice(index,1);
     }
   // deleteGoal(isDelete,index){
