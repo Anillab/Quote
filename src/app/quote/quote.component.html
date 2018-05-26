@@ -2,7 +2,7 @@
 <p>Quotes form part of our every day lives for example</p>
 <ul>
   <div *ngFor='let quote of quotes;let i=index'>
-  <li>{{quote.quote}}</li>
+  <li>{{quote.quote}} said on {{quote.postedTime|date}}</li>
   <button (click)='addVote(i)' class="btn">UpVote</button>
   <button (click)='subVote(i)' class="btn">DownVote</button>
   <button (click) = 'quoteDelete(index)'>Delete</button>
