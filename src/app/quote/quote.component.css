@@ -1,0 +1,19 @@
+#qt{
+  background-image: url(src/assets/images.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2%;
+}
+h1{
+  text-align: center;
+}
+#mid{
+  background-image: url(src/assets/feature_number_one_ocean-760x378.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#one{
+  background-color: #EBEDEF;
+  margin-bottom: 2%;
+}

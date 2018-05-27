@@ -1,15 +1,22 @@
 <div class="container-fluid">
+<div id="qt">
 <h1>Quotes</h1>
 <hr>
-<p>Quotes form part of our every day lives for example</p>
+</div>
+<div id="mid">
+<h2>Quotes form part of our every day lives for example:</h2>
 <ul>
   <div *ngFor='let quote of quotes;let i=index'>
   <li>{{quote.quote}} said on {{quote.postedTime|date}}</li>
+  <app-quote-others  [quote]='quote'></app-quote-others>
   <button (click)='addVote(i)' class="btn btn-success">UpVote</button>
   <button (click)='subVote(i)' class="btn btn-info">DownVote</button>
   <button (click) = 'quoteDelete(index)' class="btn btn-danger">Delete</button>
-  <app-quote-others  [quote]='quote'></app-quote-others>
 </div>
 </ul>
+</div>
+<div id="one">
+<h3>Feel Free to Add Yours Here!</h3>
 <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+</div>
 </div>
