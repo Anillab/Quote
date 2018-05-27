@@ -11,5 +11,5 @@
   <app-quote-others  [quote]='quote'></app-quote-others>
 </div>
 </ul>
-<app-quote-form></app-quote-form>
+<app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
 </div>

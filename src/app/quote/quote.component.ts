@@ -16,7 +16,7 @@ export class QuoteComponent implements OnInit {
   ]
   addVote(i){
     confirm(this.quotes[i].upVotes+=1)
-    
+
   }
   subVote(i){
     confirm(this.quotes[i].upVotes-1)
@@ -25,13 +25,17 @@ export class QuoteComponent implements OnInit {
      confirm("Do You want to Delete this Quote?")
       this.quotes.splice(index,1);
     }
-  // deleteGoal(isDelete,index){
-  //       if (isDelete){
-  //           this.quotes.splice(index,1);
-  //           }
-  //           }
+
+    addNewQuote(quote){
+      let quotelength=this.quotes.length;
+      quote.id=quotelength++;
+       quote. postedTime= new Date(quote.postedTime)
+       this.quotes.push(quote)
+
+   }
+
   constructor() { }
-  //
+
   ngOnInit() {
   }
   }
