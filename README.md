@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- # Quote
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
@@ -44,3 +45,7 @@ For assistance and Queries please email anillabusolo@gmail.com
 ### License
 *MIT 2018.*
 Copyright (c) 2018 **Anilla Busolo**
+=======
+# Quote
+a personal project that reflects my little knowledge in Angularjs using CLI
+>>>>>>> 4e3b6e13d6c26ca16697fe2ab7b99a728faacf52
