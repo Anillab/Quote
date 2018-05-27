@@ -1,4 +1,4 @@
-# Quote
+<!-- # Quote
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
 
@@ -24,4 +24,23 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md). -->
+# Quote
+## Anilla Stephannie
+#### Quote is a web application that displays quotes from various people.
+#### The live link to Quote is  
+26th May 2018 2.10PM
+#### By **Anilla Stephannie**
+## Description
+This is a website application that allows anyone to post quotes said or written by other people or they themselves. Another cool thing is that one can upvote or downvote a certain quote.In adition tho this, one has the freedom to delete it!
+## Installation Requirements
+* Internet  access
+## Known Bugs
+ There are no known bugs affecting the website at the moment but feel free to contact me incase you come around any.
+## Technologies Used
+* This site has been build using HTML,CSS,BOOTSTRAP,JS with incorporation with the Angular Js framework.
+## Support and contact details
+For assistance and Queries please email anillabusolo@gmail.com
+### License
+*MIT 2018.*
+Copyright (c) 2018 **Anilla Busolo**
