@@ -10,8 +10,8 @@ import { Quote } from '../quote'
 export class QuoteOthersComponent implements OnInit {
 
   @Input() quote:Quote;
-  // @Output() isDelete= new EventEmitter<boolean>();
-  
+  @Output() isDelete= new EventEmitter<boolean>();
+
 
 
 

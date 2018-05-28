@@ -5,6 +5,6 @@ export class Quote {
 )
   {
   this.upVotes=0;
-  this.downVotes=0
+  this.downVotes=0;
 }
 }

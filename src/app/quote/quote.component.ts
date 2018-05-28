@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Quote} from '../quote'
+import { Quote } from '../quote'
 
 @Component({
   selector: 'app-quote',
@@ -15,11 +15,11 @@ export class QuoteComponent implements OnInit {
 
   ]
   addVote(i){
-    confirm(this.quotes[i].upVotes+=1)
+    this.quotes[i].upVotes+=1;
 
   }
   subVote(i){
-    confirm(this.quotes[i].upVotes-1)
+    this.quotes[i].downVotes+=1;
   }
   quoteDelete(index){
      confirm("Do You want to Delete this Quote?")
@@ -27,10 +27,10 @@ export class QuoteComponent implements OnInit {
     }
 
     addNewQuote(quote){
-      let quotelength=this.quotes.length;
-      quote.id=quotelength++;
-       quote. postedTime= new Date(quote.postedTime)
-       this.quotes.push(quote)
+      let quoteLength=this.quotes.length;
+          quote.id=quoteLength++;
+          quote. postedTime= new Date(quote.postedTime)
+          this.quotes.push(quote)
 
    }
 

@@ -9,8 +9,8 @@
   <div *ngFor='let quote of quotes;let i=index'>
   <li>{{quote.quote}} said on {{quote.postedTime|date}}</li>
   <app-quote-others  [quote]='quote'></app-quote-others>
-  <button (click)='addVote(i)' class="btn btn-success">UpVote</button>
-  <button (click)='subVote(i)' class="btn btn-info">DownVote</button>
+  <button (click)='addVote(i)' class="btn btn-success">UpVote:{{quote.upVotes}}</button>
+  <button (click)='subVote(i)' class="btn btn-info">DownVote:{{quote.downVotes}}</button>
   <button (click) = 'quoteDelete(index)' class="btn btn-danger">Delete</button>
 </div>
 </ul>
