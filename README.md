@@ -29,7 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Quote
 ## Anilla Stephannie
 #### Quote is a web application that displays quotes from various people.
-#### The live link to Quote is  
+#### The live link to Quote is https://anillab.github.io/Quote/Quote/ 
 26th May 2018 2.10PM
 #### By **Anilla Stephannie**
 ## Description
